@@ -1,0 +1,64 @@
+# =======================================
+# 📦 NODE MODULES (não pode subir!)
+# =======================================
+node_modules/
+**/node_modules/
+
+# =======================================
+# 🔑 VARIÁVEIS DE AMBIENTE (super sensíveis)
+# =======================================
+.env
+**/.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# =======================================
+# ⚙️ COMPILAÇÕES E BUILD
+# =======================================
+dist/
+build/
+**/dist/
+**/build/
+
+# =======================================
+# 🗑️ LIXO DO SISTEMA OPERACIONAL
+# =======================================
+.DS_Store
+Thumbs.db
+
+# =======================================
+# ⚛️ ARQUIVOS DO REACT E VITE
+# =======================================
+*.local
+vite.config.ts.timestamp*
+.vite/
+
+# =======================================
+# 🧪 LOGS E DEBUG
+# =======================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =======================================
+# 📑 BACKEND ESPECÍFICO
+# =======================================
+/backend/.env
+/backend/node_modules/
+/backend/dist/
+
+# =======================================
+# 🎨 FRONTEND ESPECÍFICO
+# =======================================
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.env
+
+# =======================================
+# 🚀 ARQUIVOS DE DEPLOY (caso usar Vercel/Render)
+# =======================================
+.vercel
+.netlify
